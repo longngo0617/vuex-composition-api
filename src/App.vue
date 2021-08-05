@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <o-counter></o-counter>
+  <c-counter></c-counter>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import OCounter from "./components/OCounter.vue";
+import CCounter from "./components/CCounter.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    OCounter,
+    CCounter
   },
 };
 </script>
